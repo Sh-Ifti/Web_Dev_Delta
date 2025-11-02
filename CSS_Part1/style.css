@@ -1,33 +1,30 @@
-p{
-    color: #964B00;
-    text-align: center;
-    line-height: 30px;
+p {
+  color: #964b00;
+  text-align: center;
+  line-height: 30px;
 }
 
-h1{
-    text-align: center;
-    color: red;
-    font-family: Georgia;
-    text-decoration: underline;
+h1 {
+  text-align: center;
+  color: red;
+  font-family: Georgia;
+  text-decoration: underline;
 }
-h3{
-    text-align: center;
-    color: black;
+h3 {
+  text-align: center;
+  color: black;
 }
 /* h4{
     text-align: center;
 } */
-a{
-    color: rgb(0, 128, 0);
-    text-decoration: none;
+a {
+  color: rgb(0, 128, 0);
+  text-decoration: none;
 }
-button{
-    background-color: white;
-    color: blueviolet;
+button {
+  background-color: white;
+  color: blueviolet;
 }
-textarea{
-    color: #000;
+textarea {
+  color: #000;
 }
-/* span {
-text-decoration: underline;
-} */
