@@ -1,41 +1,36 @@
-h1 {
-  background-color: yellow;
+.card {
+  width: 400px;
   border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 10px;
 }
 
-@media (width: 400px) {
-  h1 {
-    background-color: red;
-    color: white;
-  }
-  div {
-    height: 100px;
-    width: 100px;
-    background-color: blue;
-  }
+img {
+  width: 100%;
+  border-radius: 25px;
 }
 
-@media (min-width: 700px) {
-  h1 {
-    background-color: greenyellow;
-  }
+h2 {
+  color: #d56f3e;
 }
 
-@media (max-width: 200px) {
-  h1 {
-    background-color: pink;
-  }
+span {
+  color: #9d6f24;
 }
 
-@media (min-width: 200px) and (max-width: 300px) {
-  h1 {
-    background-color: magenta;
-  }
+h4 {
+  text-align: right;
+  color: #3c787e;
 }
 
-@media (orientation: landscape) {
-  h1 {
-    background-color: aqua;
-    color: brown;
+#pets {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 375px) {
+  #pets {
+    flex-wrap: wrap;
   }
 }
